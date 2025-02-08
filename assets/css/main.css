@@ -976,9 +976,9 @@ section,
   color: var(--accent-color);
 }
 
-.services .content .service-item .service-item-icon img {
+/*.services .content .service-item .service-item-icon img {
   width: 50px;
-}
+}*/
 
 .services .content .service-item .service-item-icon:before {
   position: absolute;
