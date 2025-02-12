@@ -978,7 +978,7 @@ section,
 
 /*.services .content .service-item .service-item-icon img {
   width: 50px;
-}*/
+}
 
 .services .content .service-item .service-item-icon:before {
   position: absolute;
@@ -2266,5 +2266,9 @@ section,
 .tags-widget ul a span {
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
+  font-size: 14px;
+}
+
+.small-text {
   font-size: 14px;
 }
