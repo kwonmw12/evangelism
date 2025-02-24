@@ -769,14 +769,14 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 6px;
   position: relative;
 }
 
 .section-title h2 {
   font-size: 28px;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 1px;
 }
 
 .section-title p {
@@ -794,7 +794,7 @@ section,
 
 .hero .carousel {
   width: 100%;
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 300px);
   padding: 0;
   margin: 0;
   background-color: var(--background-color);
@@ -1078,7 +1078,7 @@ section,
 --------------------------------------------------------------*/
 .services-2 {
   overflow: visible;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
 
 .services-2 .section-title {
@@ -1199,7 +1199,7 @@ section,
 }
 
 .services-2 .swiper {
-  padding-bottom: 50px;
+  padding-bottom: 5px;
 }
 
 .services-2 .swiper-pagination {
@@ -1503,7 +1503,7 @@ section,
 }
 
 .blog-posts-2 .post-content {
-  padding: 30px;
+  padding: 15px;
 }
 
 .blog-posts-2 .post-title {
@@ -1512,7 +1512,6 @@ section,
   color: var(--heading-color);
   font-weight: 600;
   transition: 0.3s;
-  margin-bottom: 20px;
 }
 
 .blog-posts-2 .meta {
@@ -1913,7 +1912,7 @@ section,
 
 .contact .info {
   background-color: var(--surface-color);
-  padding: 40px;
+  padding: 10px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
@@ -2271,4 +2270,8 @@ section,
 
 .small-text {
   font-size: 14px;
+}
+
+.wjsdyd {
+  padding-top: 2rem;
 }
