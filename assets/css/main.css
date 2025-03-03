@@ -822,7 +822,7 @@ section,
 
 .hero .carousel-item:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 60%);
+  background: color-mix(in srgb, var(--background-color), transparent 100%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -952,6 +952,7 @@ section,
 .services .section-title h2 {
   color: var(--accent-color);
   font-size: 20px;
+  margin-top: 2rem;
 }
 
 .services .content .service-item {
@@ -2275,3 +2276,4 @@ section,
 .wjsdyd {
   padding-top: 2rem;
 }
+
