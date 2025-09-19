@@ -506,7 +506,7 @@ h6 {
 
 .footer .footer-about .logo {
   line-height: 1;
-  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .footer .footer-about .logo img {
@@ -2278,4 +2278,25 @@ section,
 
 .social-links1 {
   padding-top: 2rem;
+}
+
+.video-responsive {
+    position: relative;
+    /* 영상 비율을 결정합니다. (예: 16:9 = 9/16 * 100 = 56.25%) */
+    /* 4:3 비율이라면: 3/4 * 100 = 75% */
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden; /* iframe이 부모 div 밖으로 나가지 않도록 합니다. */
+    max-width: 100%; /* 부모 div가 화면 너비를 초과하지 않도록 합니다. */
+    background-color: #000; /* 로딩 중 배경색 (선택 사항) */
+    margin: 0 auto; /* 가운데 정렬 (선택 사항) */
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* 부모 div의 너비에 꽉 채웁니다. */
+    height: 100%; /* 부모 div의 높이에 꽉 채웁니다. */
+    border: none; /* iframe 테두리 제거 (선택 사항) */
 }
