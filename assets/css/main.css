@@ -501,7 +501,7 @@ h6 {
 
 .footer .footer-top {
   background-color: color-mix(in srgb, var(--background-color), white 5%);
-  padding-top: 50px;
+  
 }
 
 .footer .footer-about .logo {
@@ -535,7 +535,7 @@ h6 {
   margin-bottom: 15px;
 }
 
-.footer h4::after {
+/* .footer h4::after {
   content: "";
   position: absolute;
   display: block;
@@ -544,7 +544,7 @@ h6 {
   background: var(--accent-color);
   bottom: 0;
   left: 0;
-}
+} */
 
 .footer .footer-links {
   margin-bottom: 30px;
